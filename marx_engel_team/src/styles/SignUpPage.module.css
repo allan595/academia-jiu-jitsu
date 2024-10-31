@@ -1,0 +1,32 @@
+/* src/styles/SignUpPage.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form label {
+    margin: 10px 0;
+  }
+  
+  .form button {
+    margin-top: 20px;
+    padding: 10px;
+    background: black;
+    color: yellow;
+    cursor: pointer;
+  }
+  
